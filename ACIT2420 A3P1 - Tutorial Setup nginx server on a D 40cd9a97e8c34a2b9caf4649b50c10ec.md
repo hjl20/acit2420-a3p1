@@ -92,7 +92,7 @@ sudo chown -R <user-name>:<user-name> /home/<user-name>/.ssh/
 Now the new user can SSH into the server from the host terminal with:
 
 ```bash
-ssh -i .\\.ssh\\do-key <user-name>@164.92.68.144
+ssh -i <path-to-ssh-key> <user-name>@164.92.68.144
 ```
 
 You should now be able to access the server via SSH with your newly created user.
